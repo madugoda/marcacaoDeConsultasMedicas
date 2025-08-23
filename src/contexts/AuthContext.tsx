@@ -22,7 +22,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const loadStoredUser = async () => {
     try {
-      const storedUser = await authService.getStoredUser();
+      const storedUser = await authService.getStoredUser();  // ← Dados do AsyncStorage
       if (storedUser) {
         setUser(storedUser);
       }
@@ -43,7 +43,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const signIn = async (credentials: LoginCredentials) => {
     try {
-      const response = await authService.signIn(credentials);
+      const response = await authService.signIn(credentials);  // ← Login mockado
       setUser(response.user);
       await AsyncStorage.setItem(STORAGE_KEYS.USER, JSON.stringify(response.user));
       await AsyncStorage.setItem(STORAGE_KEYS.TOKEN, response.token);
@@ -87,4 +87,4 @@ export const useAuth = () => {
     throw new Error('useAuth must be used within an AuthProvider');
   }
   return context;
-}; 
+};
