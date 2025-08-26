@@ -129,6 +129,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## Autores
 
 - **Professor Hete Caetano** - [hete.caetano@fiap.com.br](mailto:hete.caetano@fiap.com.br)
+- **Maria Eduarda de Carvalho Goda**
 
 ## Agradecimentos
 
@@ -136,11 +137,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - [React Navigation](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
 - Todos os contribuidores do projeto
-
-## Suporte
-
-Se você encontrar algum problema ou tiver sugestões, por favor abra uma issue no GitHub.
-
----
-
-Desenvolvido por Professor Hete Caetano e compartilhado com alunos de TDS 
