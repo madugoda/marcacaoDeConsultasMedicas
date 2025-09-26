@@ -5,7 +5,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { RootStackParamList } from '../types/navigation';
 
 // Screens
-import LoginScreen from '../screens/LoginScreen';
+import LoginScreen from '../screens/LoginScreen/index';
 import RegisterScreen from '../screens/RegisterScreen';
 import HomeScreen from '../screens/HomeScreen';
 import CreateAppointmentScreen from '../screens/CreateAppointmentScreen';
